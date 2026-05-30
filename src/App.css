@@ -182,3 +182,12 @@
     border-right-color: var(--border);
   }
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1e293b;
+  font-weight: 700;
+}

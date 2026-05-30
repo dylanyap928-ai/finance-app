@@ -569,7 +569,15 @@ setDataLoaded(false);
 
         {page === "summary" && (
           <div style={cardStyle}>
-            <h2 style={{ textAlign: "center" }}>Monthly Summary</h2>
+           <h2
+  style={{
+    textAlign: "center",
+    color: "#1e293b",
+    fontWeight: "700",
+  }}
+>
+  Monthly Summary
+</h2>
 
             <div style={{ textAlign: "center", marginBottom: "20px" }}>
               <h3>{getMonthName(selectedMonth)}</h3>
@@ -850,8 +858,15 @@ setDataLoaded(false);
 
         {page === "records" && (
           <div style={cardStyle}>
-            <h2 style={{ textAlign: "center" }}>All Records</h2>
-
+            <h2
+  style={{
+    textAlign: "center",
+    color: "#1e293b",
+    fontWeight: "700",
+  }}
+>
+  All Records
+</h2>
             <div style={{ textAlign: "center", marginBottom: "20px" }}>
               <h3>{getMonthName(selectedMonth)}</h3>
 
